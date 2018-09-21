@@ -26,20 +26,21 @@ class Header extends React.Component{
                 and discover more <a className="smoothscroll" href="#about">about me</a>.</h3>
               <hr />
               <ul className="social">
-                <li><a href="#"><i className="fa fa-facebook" /></a></li>
-                <li><a href="#"><i className="fa fa-twitter" /></a></li>
-                <li><a href="#"><i className="fa fa-google-plus" /></a></li>
-                <li><a href="#"><i className="fa fa-linkedin" /></a></li>
-                <li><a href="#"><i className="fa fa-instagram" /></a></li>
-                <li><a href="#"><i className="fa fa-dribbble" /></a></li>
-                <li><a href="#"><i className="fa fa-skype" /></a></li>
+                
+                <li><a href="https://github.com/briceaugustyn"><i className="fa fa-github" /></a></li>
+                <li><a href="https://www.linkedin.com/in/brice-augustyn-292289107/"><i className="fa fa-linkedin" /></a></li>
+                <li><a href="https://stackoverflow.com/users/9248823/brice-augustyn"><i className="fa fa-stack-overflow" /></a></li>
+                
               </ul>
             </div>
           </div>
+          <div class="skype-button bubble" data-bot-id="baugustyn1000@gmail.com"></div>
           <p className="scrolldown">
             <a className="smoothscroll" href="#about"><i className="icon-down-circle" /></a>
           </p>
+          <script src="https://swc.cdn.skype.com/sdk/v1/sdk.min.js"></script>
         </header> 
+        
       );
     }
   };

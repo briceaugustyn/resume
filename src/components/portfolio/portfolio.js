@@ -7,17 +7,17 @@ class Portfolio extends React.Component {
         <section id="portfolio">
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1>Check Out Some of My Works.</h1>
+              <h1>Check Out Some of My Recent Projects.</h1>
               {/* portfolio-wrapper */}
               <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-01" title>
-                      <img alt src="images/portfolio/coffee.jpg" />
+                      <img alt src="images/portfolio/krypto1.png" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>Coffee</h5>
-                          <p>Illustrration</p>
+                          <h5>KryptoFire</h5>
+                          <p>Bitcoin</p>
                         </div>
                       </div>
                       <div className="link-icon"><i className="icon-plus" /></div>
@@ -27,18 +27,18 @@ class Portfolio extends React.Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-02" title>
-                      <img alt src="images/portfolio/console.jpg" />
+                      <img alt src="images/portfolio/iphone7s_large.png" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>Console</h5>
-                          <p>Web Development</p>
+                          <h5>The Black List</h5>
+                          <p>Self Development</p>
                         </div>
                       </div>
                       <div className="link-icon"><i className="icon-plus" /></div>
                     </a>
                   </div>
                 </div> {/* item end */}
-                <div className="columns portfolio-item">
+                {/* <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-03" title>
                       <img alt src="images/portfolio/judah.jpg" />
@@ -51,8 +51,8 @@ class Portfolio extends React.Component {
                       <div className="link-icon"><i className="icon-plus" /></div>
                     </a>
                   </div>
-                </div> {/* item end */}
-                <div className="columns portfolio-item">
+                </div> item end */}
+                {/* <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-04" title>
                       <img alt src="images/portfolio/into-the-light.jpg" />
@@ -65,8 +65,8 @@ class Portfolio extends React.Component {
                       <div className="link-icon"><i className="icon-plus" /></div>
                     </a>
                   </div>
-                </div> {/* item end */}
-                <div className="columns portfolio-item">
+                </div> item end */}
+                {/* <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-05" title>
                       <img alt src="images/portfolio/farmerboy.jpg" />
@@ -79,8 +79,8 @@ class Portfolio extends React.Component {
                       <div className="link-icon"><i className="icon-plus" /></div>
                     </a>
                   </div>
-                </div> {/* item end */}
-                <div className="columns portfolio-item">
+                </div> item end */}
+                {/* <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-06" title>
                       <img alt src="images/portfolio/girl.jpg" />
@@ -93,8 +93,8 @@ class Portfolio extends React.Component {
                       <div className="link-icon"><i className="icon-plus" /></div>
                     </a>
                   </div>
-                </div> {/* item end */}
-                <div className="columns portfolio-item">
+                </div> item end */}
+                {/* <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-07" title>
                       <img alt src="images/portfolio/origami.jpg" />
@@ -107,8 +107,8 @@ class Portfolio extends React.Component {
                       <div className="link-icon"><i className="icon-plus" /></div>
                     </a>
                   </div>
-                </div> {/* item end */}
-                <div className="columns portfolio-item">
+                </div> item end */}
+                {/* <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-08" title>
                       <img alt src="images/portfolio/retrocam.jpg" />
@@ -121,32 +121,44 @@ class Portfolio extends React.Component {
                       <div className="link-icon"><i className="icon-plus" /></div>
                     </a>
                   </div>
-                </div>  {/* item end */}
+                </div>  item end */}
               </div> {/* portfolio-wrapper end */}
             </div> {/* twelve columns end */}
             {/* Modal Popup
             --------------------------------------------------------------- */}
             <div id="modal-01" className="popup-modal mfp-hide">
-              <img className="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt />
+              <img className="scale-with-grid" src="images/portfolio/krypto2.png" alt />
+              <img className="scale-with-grid" src="images/portfolio/krypto3.png" alt />
+              
               <div className="description-box">
-                <h4>Coffee Cup</h4>
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                <span className="categories"><i className="fa fa-tag" />Branding, Webdesign</span>
+                <h4>Krypto Fire</h4>
+                <p>KyrptoFire is cryptocurrency mobile web application: one stop shop for all altcoin information, market exchange data and viral news.</p>
+                
+                <h4>Technologies</h4>
+                <p>HTML, CSS, Bootstrap, JQuery, API, Firebase </p>
+                <span className="categories"><i className="fa fa-tag" />Krypto Fire App</span>
               </div>
               <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
+                <a href="https://locolucco209.github.io/CryptoRiderz/">Try out</a>
+                <a href="https://github.com/locolucco209/CryptoRiderz">GitHub</a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-01 End */}
             <div id="modal-02" className="popup-modal mfp-hide">
-              <img className="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt />
+            
+              <img className="scale-with-grid" src="images/portfolio/BLACKLIST5.png" alt />
+              
               <div className="description-box">
-                <h4>Console</h4>
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                <span className="categories"><i className="fa fa-tag" />Branding, Web Development</span>
+                <h4>The Black List</h4>
+                <p>The Blacklist is a self development mobile web application:Best tool to help you to become more productive than before.</p>
+                
+                <h4>Technologies</h4>
+                <p>ReactJS, OAuth, Bootstrap, Node, MySQL, Heroku</p>
+                <span className="categories"><i className="fa fa-tag" />The Black List App</span>
               </div>
               <div className="link-box">
-                <a href="http://www.behance.net">Details</a>
+                <a href="https://blacklist-final.herokuapp.com/">Try out</a>
+                <a href="https://github.com/AnthonyWilson1/BlackList">GitHub</a>
                 <a className="popup-modal-dismiss">Close</a>
               </div>
             </div>{/* modal-02 End */}
