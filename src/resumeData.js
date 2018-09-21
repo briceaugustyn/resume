@@ -3,7 +3,7 @@ let resumeData = {
     "imagebaseurl":"https://briceaugustyn.github.io/react-portfolio2/.",
     "name": "Brice",
     "role": "Full Stack Web Developer ",
-    "roleDescription": "creating awesome and effective visual application for companies of all sizes in California.",
+    "roleDescription": " creating awesome and effective visual application for companies of all sizes in California.",
     
       
           
