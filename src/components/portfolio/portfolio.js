@@ -7,7 +7,8 @@ class Portfolio extends React.Component {
         <section id="portfolio">
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1>Check Out Some of My Recent Projects.</h1>
+              
+              <h1>From Web Components and UI/UX animations to React.JS, and Node.JS. Check out my latest web software development portfolio projects.</h1>
               {/* portfolio-wrapper */}
               <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                 <div className="columns portfolio-item">

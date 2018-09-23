@@ -10,10 +10,13 @@ class ContactUs extends React.Component {
               <h1><span>Get In Touch.</span></h1>
             </div>
             <div className="ten columns">
-              <p className="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+              <p className="lead">LET'S GET IN TOUCH Tell me about yourself and what I can do for you.
               </p>
+              <p className="lead">Feel free to contact me via email at 
+              baugustyn1000@gmail.com or drop a line in the form at the contact page
+              </p>
+
+
             </div>
           </div>
           <div className="row">
@@ -56,10 +59,10 @@ class ContactUs extends React.Component {
               <div className="widget widget_contact">
                 <h4>Address and Phone</h4>
                 <p className="address">
-                  Jonathan Doe<br />
-                  1600 Amphitheatre Parkway <br />
-                  Mountain View, CA 94043 US<br />
-                  <span>(123) 456-7890</span>
+                  Brice Augustyn<br />
+                  606 Third Avenue <br />
+                  San Diego, CA 92101 US<br />
+                  <span>(707) 292 4556</span>
                 </p>
               </div>
               <div className="widget widget_tweets">
@@ -67,16 +70,14 @@ class ContactUs extends React.Component {
                 <ul id="twitter">
                   <li>
                     <span>
-                      This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                      Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
+                      just building my new portfolio in reaasact fun #reactjs #hacking
                       <a href="#">http://t.co/CGIrdxIlI3</a>
                     </span>
-                    <b><a href="#">2 Days Ago</a></b>
+                    <b><a href="#">1 Days Ago</a></b>
                   </li>
                   <li>
                     <span>
-                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                      eaque ipsa quae ab illo inventore veritatis et quasi
+                      I just went to this Python meet up and learn about data analysis so cool #python
                       <a href="#">http://t.co/CGIrdxIlI3</a>
                     </span>
                     <b><a href="#">3 Days Ago</a></b>

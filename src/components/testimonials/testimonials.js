@@ -24,11 +24,9 @@ class Testimonials extends React.Component {
                     </li> {/* slide ends */}
                     <li>
                       <blockquote>
-                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                          Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                          nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                        <p>React: Built and backed by Facebook, React is a favorite amongst developers for building and maintaining products, whether a quick POC or large enterprise software. It’s currently used by many leading companies like Instagram, Netflix, Walmart, Whatsapp, and more. React’s benefits include its component-based architecture, Virtual DOM for great performance, super fast learning curve, and popularity amongst developers with a huge community of support.
                         </p>
-                        <cite>Mr. Adobe</cite>
+                        <cite>Medium.com</cite>
                       </blockquote>
                     </li> {/* slide ends */}
                   </ul>

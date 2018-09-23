@@ -25,12 +25,14 @@ class Header extends React.Component{
                  Let's <a className="smoothscroll" href="#about">start scrolling </a>
                 and discover more <a className="smoothscroll" href="#about">about me</a>.</h3>
               <hr />
+
+      
               <ul className="social">
                 
                 <li><a href="https://github.com/briceaugustyn"><i className="fa fa-github" /></a></li>
                 <li><a href="https://www.linkedin.com/in/brice-augustyn-292289107/"><i className="fa fa-linkedin" /></a></li>
                 <li><a href="https://stackoverflow.com/users/9248823/brice-augustyn"><i className="fa fa-stack-overflow" /></a></li>
-                
+
               </ul>
             </div>
           </div>
