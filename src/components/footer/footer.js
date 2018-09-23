@@ -7,17 +7,15 @@ class Footer extends React.Component {
           <div className="row">
             <div className="twelve columns">
               <ul className="social-links">
-                <li><a href="#"><i className="fa fa-facebook" /></a></li>
-                <li><a href="#"><i className="fa fa-twitter" /></a></li>
-                <li><a href="#"><i className="fa fa-google-plus" /></a></li>
-                <li><a href="#"><i className="fa fa-linkedin" /></a></li>
-                <li><a href="#"><i classNname="fa fa-instagram" /></a></li>
-                <li><a href="#"><i className="fa fa-dribbble" /></a></li>
-                <li><a href="#"><i className="fa fa-skype" /></a></li>
+              <li>
+                <a href="https://github.com/briceaugustyn"><i className="fa fa-github" /></a></li>
+                <li><a href="https://www.linkedin.com/in/brice-augustyn-292289107/"><i className="fa fa-linkedin" /></a></li>
+                <li><a href="https://stackoverflow.com/users/9248823/brice-augustyn"><i className="fa fa-stack-overflow" /></a></li>
+
               </ul>
               <ul className="copyright">
-                <li>© Copyright 2014 CeeVee</li>
-                <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
+                <li>© Copyright 2018 Brice.A</li>
+                <li>Design by <a title="Styleshout" href="http://www.briceaugustyn.com/">Brice Augustyn</a></li>   
               </ul>
             </div>
             <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>

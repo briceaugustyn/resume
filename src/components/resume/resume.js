@@ -3,6 +3,7 @@ import React from 'react';
 class Resume extends React.Component {
   render() {
     return (
+      <section id="resume">
       <div>
 
         <div className="row skill">
@@ -112,6 +113,7 @@ class Resume extends React.Component {
         </div> {/* End skills */}
         {/* Resume Section End*/}
       </div>
+      </section>
     );
   }
 };
