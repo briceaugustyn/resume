@@ -1,4 +1,6 @@
 import React from 'react';
+import Download from '../Download/Download';
+
 class About extends React.Component {
     render() {
       return (
@@ -29,7 +31,7 @@ class About extends React.Component {
                 </div>
                 <div className="columns download">
                   <p>
-                    <a href="images/resume-Brice-Augustyn-9-14-18.pdf" target="_blank" className="button"><i className="fa fa-download" />Download Resume</a>
+                    <Download />
                   </p>
                 </div>
               </div> {/* end row */}

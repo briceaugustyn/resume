@@ -1,24 +1,14 @@
 import React, { Component } from 'react';
-import Header from './components/header/header';
-import About from './components/about/about';
-import Resume from './components/resume/resume';
-import Portfolio from './components/portfolio/portfolio';
-import Testimonials from  './components/testimonials/testimonials';
-import ContactUs from './components/contactus/contactus';
-import Footer from './components/footer/footer';
-import resumeData from './resumeData';
+import {BrowserRouter, Route} from "react-router-dom";
+import Home from './components/Home/Home';
+
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header resumeData={resumeData}/>
-        <About />
-        <Portfolio />
-        <Resume/>
-        <Testimonials />
-        <ContactUs />
-        <Footer />
-      </div>
+      <BrowserRouter>
+      <Route path="/" component={Home}exact/>
+      </BrowserRouter>
+
     );
   }
 }
