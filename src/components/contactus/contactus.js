@@ -12,9 +12,15 @@ class ContactUs extends React.Component {
             <div className="ten columns">
               <p className="lead">LET'S GET IN TOUCH Tell me about yourself and what I can do for you.
               </p>
-              <p className="lead">Feel free to contact me via email at 
-              baugustyn1000@gmail.com or drop a line in the form at the contact page
+              <p className="lead">Feel free to contact me via email at: 
               </p>
+              <p className="lead">
+              <a href="mailto:baugustyn1000@gmail.com?subject=Hello&body=We+want+to+hire+you">baugustyn1000@gmail.com</a>
+              </p>
+              <p className="lead">or drop a line in the form at the contact page
+              </p>
+               
+              
 
 
             </div>
@@ -66,19 +72,19 @@ class ContactUs extends React.Component {
                 </p>
               </div>
               <div className="widget widget_tweets">
-                <h4 className="widget-title">Latest Tweets</h4>
+                <h4 className="widget-title">Latest Tweets </h4>
                 <ul id="twitter">
                   <li>
                     <span>
                       just building my new portfolio in reaasact fun #reactjs #hacking
-                      <a href="#">http://t.co/CGIrdxIlI3</a>
+                      <a href="#"> http://t.co/CGIrdxIlI3</a>
                     </span>
                     <b><a href="#">1 Days Ago</a></b>
                   </li>
                   <li>
                     <span>
-                      I just went to this Python meet up and learn about data analysis so cool #python
-                      <a href="#">http://t.co/CGIrdxIlI3</a>
+                      I just went to this Python meet up and learn about data analysis so cool #python 
+                      <a href="#"> http://t.co/CGIrdxIlI3</a>
                     </span>
                     <b><a href="#">3 Days Ago</a></b>
                   </li>
