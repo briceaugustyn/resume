@@ -7,7 +7,7 @@ import Testimonials from  '../testimonials/testimonials';
 import ContactUs from '../contactus/contactus';
 import Footer from '../footer/footer';
 import resumeData from '../../resumeData';
-
+import ContactForm from '../testimonials/test';
 
 const Home =()=>{
     return (
@@ -19,6 +19,7 @@ const Home =()=>{
         <Resume/>
         <Testimonials />
         <ContactUs />
+        <ContactForm />
         <Footer />
       </div> 
     );
