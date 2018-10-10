@@ -108,20 +108,24 @@ class ContactUs extends React.Component {
                   </div>
                   <div>
                     <label htmlFor="contactSubject">Subject</label>
-                    <input type="text" defaultValue size={35} id="contactSubject" name="contactSubject" />
+                    <input type="text" size={35} id="contactSubject" name="contactSubject" />
                   </div>
                   <div>
                     <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                    <textarea cols={50} rows={15} id="contactMessage" name="contactMessage" defaultValue={""} />
+                    <textarea cols={50} rows={15} id="contactMessage"  defaultValue={""} name="message" value={message} onChange={this.handleChange}/>
+
                   </div>
-                  <div>
-                    <button className="submit">Submit</button>
+                  {/* <div>
+                    <button className="submit" type="submit">Submit</button>
                     <span id="image-loader">
                       <img alt src="images/loader.gif" />
                     </span>
-                  </div>
+                  </div> */}
                   <div>
                   <button type="submit">Send</button>
+                  <span id="image-loader">
+                      <img alt src="images/loader.gif" />
+                    </span>
                 </div>
                 </fieldset>
                 </form> 
