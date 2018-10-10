@@ -55,6 +55,14 @@ class ContactUs extends React.Component {
           <div className="row">
             <div className="eight columns">
               {/* form */}
+             
+             
+              <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <textarea name="message" defaultValue={""} />
+      </form>
+
 
               <form onSubmit={this.handleSubmit}>
               <p>
