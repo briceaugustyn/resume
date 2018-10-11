@@ -113,7 +113,7 @@ class ContactUs extends React.Component {
                 Brice Augustyn<br />
                 606 Third Avenue <br />
                 San Diego, CA 92101 US<br />
-                <span>(707) 292 4556</span>
+                <span><a href="tel:7072924556">1 (707) 292 4556</a></span>
               </p>
             </div>
             <div className="widget widget_tweets">
