@@ -111,8 +111,7 @@ class ContactUs extends React.Component {
               <h4>Address and Phone</h4>
               <p className="address">
                 Brice Augustyn<br />
-                606 Third Avenue <br />
-                San Diego, CA 92101 US<br />
+                San Diego, CA<br />
                 <span><a href="tel:7072924556">1 (707) 292 4556</a></span>
               </p>
             </div>

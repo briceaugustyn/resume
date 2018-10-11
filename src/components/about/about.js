@@ -22,10 +22,9 @@ class About extends React.Component {
                   <h2>Contact Details</h2>
                   <p className="address">
                     <span>Brice Augustyn</span><br />
-                    <span>606 Third Avenue<br />
-                      San Diego, CA 92101 US
+                    <span>San Diego, CA
                     </span><br />
-                    <span>(707)292-4556</span><br />
+                    <span><a href="tel:7072924556">1 (707) 292 4556</a></span><br />
                     <span>baugustyn1000@gmail.com</span>
                   </p>
                 </div>
