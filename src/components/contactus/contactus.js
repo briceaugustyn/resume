@@ -11,7 +11,7 @@ class ContactUs extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = { name: "", email: "", message: "" };
+    this.state = { name: "", email: "",subject: "", message: "" };
   }
 
 
@@ -27,6 +27,7 @@ class ContactUs extends React.Component {
     e.preventDefault();
     this.setState({ name: '' });
     this.setState({ email: '' });
+    this.setState({ subject: '' });
     this.setState({ message: '' });
   };
 
@@ -34,7 +35,7 @@ class ContactUs extends React.Component {
 
 
   render() {
-    const { name, email, message } = this.state;
+    const { name, email,subject, message } = this.state;
     return (
 
       <section id="contact">
@@ -72,7 +73,7 @@ class ContactUs extends React.Component {
                   </div>
                   <div>
                     <label htmlFor="contactSubject">Subject</label>
-                    <input type="text" size={35} id="contactSubject" name="contactSubject" />
+                    <input type="text" size={35} id="contactSubject" name="subject" value={subject} onChange={this.handleChange} />
                   </div>
                   <div>
                     <label htmlFor="contactMessage">Message <span className="required">*</span></label>
