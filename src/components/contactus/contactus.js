@@ -21,7 +21,9 @@ class ContactUs extends React.Component {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", ...this.state })
     })
-      .then(() => alert("Email Sent To Brice"))
+     
+    this.resetForm()  
+    .then(() => alert("Message Sent."))
       .catch(error => alert(error));
 
     e.preventDefault();
@@ -29,7 +31,9 @@ class ContactUs extends React.Component {
 
   handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
-
+  resetForm(){
+    document.getElementById('contactForm').reset();
+}
   render() {
     const { name, email, message } = this.state;
     return (
