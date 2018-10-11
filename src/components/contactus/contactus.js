@@ -11,7 +11,7 @@ class ContactUs extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = { name: "", email: "", subject: "",message: "" };
+    this.state = { name: "", email: "", message: "" };
   }
 
 
@@ -21,20 +21,17 @@ class ContactUs extends React.Component {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", ...this.state })
     })
-
-      .then(() => alert("Message Sent."))
+      .then(() => alert("Email Sent To Brice"))
       .catch(error => alert(error));
+
     e.preventDefault();
-    // this.setState({ name: '' });
-    // this.setState({ email: '' });
-    // this.setState({ subject: '' });
-    // this.setState({ message: '' });
   };
 
   handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
+
   render() {
-    const { name, email, subject, message } = this.state;
+    const { name, email, message } = this.state;
     return (
 
       <section id="contact">
@@ -59,41 +56,41 @@ class ContactUs extends React.Component {
           <div className="eight columns">
             {/* form */}
             <form action method="post" id="contactForm" name="contactForm" onSubmit={this.handleSubmit}>
-              <fieldset>
-                <div>
-                  <label htmlFor="contactName">Name <span className="required">*</span></label>
-                  {/* <input type="text" defaultValue size={35} id="contactName" name="contactName" /> */}
-                  <input type="text" name="name" value={name} onChange={this.handleChange} />
-                </div>
-                <div>
-                  <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                  {/* <input type="text" defaultValue size={35} id="contactEmail" name="contactEmail" /> */}
-                  <input type="email" name="email" value={email} onChange={this.handleChange} />
-                </div>
-                <div>
-                  <label htmlFor="contactSubject">Subject</label>
-                  <input type="text" size={35} id="contactSubject" name="subject" value={subject} onChange={this.handleChange} />
-                </div>
-                <div>
-                  <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                  <textarea cols={50} rows={15} id="contactMessage" defaultValue={""} name="message" value={message} onChange={this.handleChange} />
+            <fieldset>
+                  <div>
+                    <label htmlFor="contactName">Name <span className="required">*</span></label>
+                    {/* <input type="text" defaultValue size={35} id="contactName" name="contactName" /> */}
+                    <input type="text" name="name" value={name} onChange={this.handleChange} />
+                  </div>
+                  <div>
+                    <label htmlFor="contactEmail">Email <span className="required">*</span></label>
+                    {/* <input type="text" defaultValue size={35} id="contactEmail" name="contactEmail" /> */}
+                    <input type="email" name="email" value={email} onChange={this.handleChange} />
+                  </div>
+                  <div>
+                    <label htmlFor="contactSubject">Subject</label>
+                    <input type="text" size={35} id="contactSubject" name="contactSubject" />
+                  </div>
+                  <div>
+                    <label htmlFor="contactMessage">Message <span className="required">*</span></label>
+                    <textarea cols={50} rows={15} id="contactMessage"  defaultValue={""} name="message" value={message} onChange={this.handleChange}/>
 
-                </div>
-                <div>
+                  </div>
+                  <div>
                   {/* <button className="submit" type="submit">Submit</button> */}
-                  <button type="submit">Submit</button>
-                  <span id="image-loader">
-                    <img alt src="images/loader.gif" />
-                  </span>
-                </div>
-                {/* <div>
+                    <button type="submit">Submit</button>
+                    <span id="image-loader">
+                      <img alt src="images/loader.gif" />
+                    </span>
+                  </div>
+                  {/* <div>
                   <button type="submit">Send</button>
                   <span id="image-loader">
                       <img alt src="images/loader.gif" />
                     </span>
                 </div> */}
-              </fieldset>
-            </form>
+                </fieldset>
+                </form> 
             {/* Form End */}
 
 
