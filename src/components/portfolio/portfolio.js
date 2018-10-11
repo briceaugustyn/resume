@@ -28,7 +28,7 @@ class Portfolio extends React.Component {
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
                     <a href="#modal-02" title>
-                      <img alt src="images/portfolio/iphone7s_large.png" />
+                      <img alt src="images/portfolio/iphone7s_large2.png" />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>The Black List</h5>
@@ -147,7 +147,7 @@ class Portfolio extends React.Component {
             </div>{/* modal-01 End */}
             <div id="modal-02" className="popup-modal mfp-hide">
             
-              <img className="scale-with-grid" src="images/portfolio/BLACKLIST5.png" alt />
+              <img className="scale-with-grid" src="images/portfolio/iphone7s_large2.png" alt />
               
               <div className="description-box">
                 <h4>The Black List</h4>
