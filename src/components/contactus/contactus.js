@@ -21,7 +21,7 @@ class ContactUs extends React.Component {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", ...this.state })
     })
-      .then(() => alert("Success!"))
+      .then(() => alert("Email Sent To Brice"))
       .catch(error => alert(error));
 
     e.preventDefault();
@@ -55,45 +55,6 @@ class ContactUs extends React.Component {
         <div className="row">
           <div className="eight columns">
             {/* form */}
-
-
-
-
-
-            {/* <label>
-                  Message: <textarea name="message" value={message} onChange={this.handleChange} />
-                </label>
-              </p>
-              <p>
-                <button type="submit">Send</button>
-              </p>
-            </form> */}
-
-            {/* <form action method="post" id="contactForm" name="contactForm" onSubmit={this.handleSubmit} >
-              <fieldset>
-
-                <div>
-                  <label htmlFor="contactName">Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
-                  </label>
-                </div>
-                <div>
-                  <label>
-                    Your Email: <input type="email" name="email" value={email} onChange={this.handleChange} />
-                  </label>
-                </div>
-                <div>
-                  <label>
-                    Message: <textarea name="message" value={message} onChange={this.handleChange} />
-                  </label>
-                </div>
-                <div>
-                  <button type="submit">Send</button>
-                </div>
-              </fieldset>
-            </form> */}
-
-
-
             <form action method="post" id="contactForm" name="contactForm" onSubmit={this.handleSubmit}>
             <fieldset>
                   <div>
@@ -115,18 +76,19 @@ class ContactUs extends React.Component {
                     <textarea cols={50} rows={15} id="contactMessage"  defaultValue={""} name="message" value={message} onChange={this.handleChange}/>
 
                   </div>
-                  {/* <div>
-                    <button className="submit" type="submit">Submit</button>
+                  <div>
+                  {/* <button className="submit" type="submit">Submit</button> */}
+                    <button type="submit">Submit</button>
                     <span id="image-loader">
                       <img alt src="images/loader.gif" />
                     </span>
-                  </div> */}
-                  <div>
+                  </div>
+                  {/* <div>
                   <button type="submit">Send</button>
                   <span id="image-loader">
                       <img alt src="images/loader.gif" />
                     </span>
-                </div>
+                </div> */}
                 </fieldset>
                 </form> 
             {/* Form End */}
