@@ -25,6 +25,9 @@ class ContactUs extends React.Component {
       .catch(error => alert(error));
 
     e.preventDefault();
+    this.setState({ name: '' });
+    this.setState({ email: '' });
+    this.setState({ message: '' });
   };
 
   handleChange = e => this.setState({ [e.target.name]: e.target.value });
