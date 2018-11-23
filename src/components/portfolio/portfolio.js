@@ -53,6 +53,22 @@ class Portfolio extends React.Component {
                   </a>
                 </div>
               </div> {/* item end */}
+              <div className="columns portfolio-item">
+                <div className="item-wrap">
+                  <a href="#modal-04" title>
+                    <img alt src="images/portfolio/SD-Discount Nutrition.jpg" />
+                    <div className="overlay">
+                      <div className="portfolio-item-meta">
+                        <h5>SD Discount Nutrition</h5>
+                        <p>Store Website</p>
+                      </div>
+                    </div>
+                    <div className="link-icon"><i className="icon-plus" /></div>
+                  </a>
+                </div>
+              </div> {/* item end */}
+
+
               {/* item end */}
               {/* <div className="columns portfolio-item">
                   <div className="item-wrap">
@@ -200,16 +216,19 @@ class Portfolio extends React.Component {
         </div>{/* modal-03 End */}
 
 
+        
 
-        <div id="modal-03" className="popup-modal mfp-hide">
-          <img className="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt />
+
+
+        <div id="modal-04" className="popup-modal mfp-hide">
+          <img className="scale-with-grid" src="images/portfolio/SD-Discount Nutrition.jpg" alt />
           <div className="description-box">
-            <h4>Judah</h4>
-            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-            <span className="categories"><i className="fa fa-tag" />Branding</span>
+            <h4>SD Discount Nutrition</h4>
+            <p>Web Site in Progress built in HTML, CSS</p>
+            <span className="categories"><i className="fa fa-tag" />Website</span>
           </div>
           <div className="link-box">
-            <a href="http://www.behance.net">Details</a>
+            <a href="http://www.augustynbrice.com/test/">Details</a>
             <a className="popup-modal-dismiss">Close</a>
           </div>
         </div>{/* modal-03 End */}
@@ -257,7 +276,7 @@ class Portfolio extends React.Component {
             <span className="categories"><i className="fa fa-tag" />Branding, Illustration</span>
           </div>
           <div className="link-box">
-            <a href="http://www.behance.net">Details</a>
+            <a href="http://www.augustynbrice.com/test/">Details</a>
             <a className="popup-modal-dismiss">Close</a>
           </div>
         </div>{/* modal-07 End */}
@@ -269,7 +288,7 @@ class Portfolio extends React.Component {
             <span className="categories"><i className="fa fa-tag" />Webdesign, Photography</span>
           </div>
           <div className="link-box">
-            <a href="http://www.behance.net">Details</a>
+            <a href="http://www.augustynbrice.com/test/">Details</a>
             <a className="popup-modal-dismiss">Close</a>
           </div>
         </div>{/* modal-01 End */}
