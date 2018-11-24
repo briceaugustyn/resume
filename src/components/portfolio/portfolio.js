@@ -189,7 +189,7 @@ class Portfolio extends React.Component {
               <span className="categories"><i className="fa fa-tag" />The Black List App</span>
             </div>
             <div className="link-box">
-              <a href="https://blacklist-final.herokuapp.com/">Try out</a>
+              <a href="https://blacklist-final.herokuapp.com/">Tryout</a>
               <a href="https://github.com/AnthonyWilson1/BlackList">GitHub</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
@@ -209,7 +209,7 @@ class Portfolio extends React.Component {
             <span className="categories"><i className="fa fa-tag" />Web Site</span>
           </div>
           <div className="link-box">
-            <a href="https://adaptivequalitysystems.netlify.com/">Try out</a>
+            <a href="https://adaptivequalitysystems.netlify.com/">Tryout</a>
             <a href="https://github.com/briceaugustyn/sddiscountnutrition">GitHub</a>
             <a className="popup-modal-dismiss">Close</a>
           </div>
@@ -228,7 +228,7 @@ class Portfolio extends React.Component {
             <span className="categories"><i className="fa fa-tag" />Website</span>
           </div>
           <div className="link-box">
-          <a href="http://www.augustynbrice.com/test/">Try out</a>
+          <a href="http://www.augustynbrice.com/test/">Tryout</a>
             <a href="https://github.com/briceaugustyn/sddiscountnutrition">GitHub</a>
             <a className="popup-modal-dismiss">Close</a>
           </div>
