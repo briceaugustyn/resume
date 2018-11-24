@@ -171,7 +171,7 @@ class Portfolio extends React.Component {
               <span className="categories"><i className="fa fa-tag" />Krypto Fire App</span>
             </div>
             <div className="link-box">
-              <a href="https://locolucco209.github.io/CryptoRiderz/">Try out</a>
+              <a href="https://locolucco209.github.io/CryptoRiderz/">Tryout</a>
               <a href="https://github.com/locolucco209/CryptoRiderz">GitHub</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
@@ -210,7 +210,7 @@ class Portfolio extends React.Component {
           </div>
           <div className="link-box">
             <a href="https://adaptivequalitysystems.netlify.com/">Try out</a>
-            <a href="https://github.com/briceaugustyn/jae-website">GitHub</a>
+            <a href="https://github.com/briceaugustyn/sddiscountnutrition">GitHub</a>
             <a className="popup-modal-dismiss">Close</a>
           </div>
         </div>{/* modal-03 End */}
@@ -228,7 +228,8 @@ class Portfolio extends React.Component {
             <span className="categories"><i className="fa fa-tag" />Website</span>
           </div>
           <div className="link-box">
-            <a href="http://www.augustynbrice.com/test/">Details</a>
+          <a href="http://www.augustynbrice.com/test/">Try out</a>
+            <a href="https://github.com/briceaugustyn/sddiscountnutrition">GitHub</a>
             <a className="popup-modal-dismiss">Close</a>
           </div>
         </div>{/* modal-03 End */}
