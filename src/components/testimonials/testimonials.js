@@ -15,18 +15,17 @@ class Testimonials extends React.Component {
                   <ul className="slides">
                     <li>
                       <blockquote>
-                        <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
-                          to do what you believe is great work. And the only way to do great work is to love what you do.
-                          If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+                        <p>I would strongly recommend Brice. He is a brilliant Engineer / Developer and has a track record of delivering on time high quality work and apps. 
+                        So if you need to get things done within your time and budget constraints, Brice is most likely a person to go to.
                         </p>
-                        <cite>Steve Jobs</cite>
+                        <cite>Kevin Talbot, CFA Digital Assets and Cryptocurrencies</cite>
                       </blockquote>
                     </li> {/* slide ends */}
                     <li>
                       <blockquote>
-                        <p>React: Built and backed by Facebook, React is a favorite amongst developers for building and maintaining products, whether a quick POC or large enterprise software. It’s currently used by many leading companies like Instagram, Netflix, Walmart, Whatsapp, and more. React’s benefits include its component-based architecture, Virtual DOM for great performance, super fast learning curve, and popularity amongst developers with a huge community of support.
+                        <p>It’s been few years since my website was down and I had not done anything with it. Brice approached me and offering his services. I was skeptical as I did not see any use for my website. He was encouraging and educating me with the possibilities that I’ve never thought about. During the web development process, I was enlighten by some of his ideas. Now I see some opportunity to do more with the website. The development process was easy and was done fast. The price came just under what was originally quoted. I am very happy with the result. Brice is open and honest person. I will be continuining our business relationship with additional projects.
                         </p>
-                        <cite>Medium.com</cite>
+                        <cite>Jason Lee, Adaptive Quality Systems Management LLC</cite>
                       </blockquote>
                     </li> {/* slide ends */}
                   </ul>
