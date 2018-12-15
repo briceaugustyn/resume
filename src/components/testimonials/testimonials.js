@@ -18,7 +18,7 @@ class Testimonials extends React.Component {
                         <p>I would strongly recommend Brice. He is a brilliant Engineer / Developer and has a track record of delivering on time high quality work and apps. 
                         So if you need to get things done within your time and budget constraints, Brice is most likely a person to go to.
                         </p>
-                        <cite>Kevin Talbot, CFA Digital Assets and Cryptocurrencies</cite>
+                        <cite>Kevin Talbot, CFA Digital Assets and Cryptocurrencies </cite>
                       </blockquote>
                     </li> {/* slide ends */}
                     <li>
